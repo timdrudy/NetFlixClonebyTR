@@ -46,6 +46,10 @@ const Login = () => {
             </div>
             <p>Need Help?</p>
           </div>
+          <br />
+          <div className="remember">
+          *** Either use guest@gmail.com and 'password' to login or Sign Up
+          </div>
         </form>
         <div className="form-switch">
           {signState==="Sign In"?
